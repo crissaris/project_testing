@@ -9,6 +9,7 @@ import com.android.volley.toolbox.ImageLoader;
 import com.android.volley.toolbox.Volley;
 
 public class Singleton {
+
     private static Singleton singleton;
     private RequestQueue requestQueue;
     private ImageLoader imageLoader;

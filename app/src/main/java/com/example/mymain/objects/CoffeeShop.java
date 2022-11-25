@@ -1,6 +1,6 @@
 package com.example.mymain.objects;
 
-public class Hospital {
+public class CoffeeShop {
 
     private String name;
     private String placeId;
@@ -9,10 +9,10 @@ public class Hospital {
     private double lat;
     private double lng;
 
-    public Hospital() {
+    public CoffeeShop() {
     }
 
-    public Hospital(String name, String placeId, String vicinity, float rate, double lat, double lng) {
+    public CoffeeShop(String name, String placeId, String vicinity, float rate, double lat, double lng) {
         this.name = name;
         this.placeId = placeId;
         this.vicinity = vicinity;
